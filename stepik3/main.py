@@ -1,3 +1,30 @@
+"""
+Посчитайте кол-во слов в тексте.
+Слова отсортируйте в лексикографическом порядке (как в словаре).
+Словом считайте всё что отделено пробелом.
+Также не забудьте убрать знаки пунктуации (после знака пунктуации обязательно идет пробельный символ - пробел, либо перенос строки).
+
+Слова должны быть записаны символами в нижнем регистре.
+
+Считайте знаками препинания следующие символы: .?!,-:;
+"""
+
+"""
+Shall I compare thee to a summer’s day?
+Thou art more lovely and more temperate:
+Rough winds do shake the darling buds of May,
+And summer’s lease hath all too short a date:
+Sometime too hot the eye of heaven shines,
+And often is his gold complexion dimmed;
+And every fair from fair sometime declines,
+By chance, or nature’s changing course, untrimmed:
+But thy eternal summer shall not fade,
+Nor lose possession of that fair thou ow’st;
+Nor shall Death brag thou wander’st in his shade
+When in eternal lines to time thou grow’st:
+So long as men can breathe or eyes can see,
+So long lives this, and this gives life to thee.
+"""
 import sys
 
 text = sys.stdin.read()
